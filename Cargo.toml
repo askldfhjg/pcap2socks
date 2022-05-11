@@ -29,4 +29,4 @@ tokio = { version = "1.18.2", features = ["rt", "rt-multi-thread", "io-util", "n
 netifs = { git = "https://github.com/zhxie/netifs-rs" }
 
 [target.'cfg(not(windows))'.dependencies]
-interfaces = "0.0.4"
+interfaces = "0.0.8"
